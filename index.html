@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thiệp Thôi Nôi Bé Tố Uyên</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="mobile-fix.css?v=999">
+</head>
+<body>
+
+<!-- Hoa & ánh sáng -->
+<canvas id="petals"></canvas>
+
+<audio autoplay loop>
+  <source src="./music/music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PHẦN ĐẦU (ĐẬM) -->
+<section class="scene hero">
+  <h1 class="reveal-text">Bé Tố Uyên</h1>
+  <p class="subtitle reveal-text"><strong>22-02-2026</strong><br></p>
+  <p class="subtitle reveal-text">Chúc mừng sinh nhật tròn 1 tuổi</p>
+  <div class="avatar-wrap">
+    <div class="avatar-glow"></div>
+    <div class="avatar-ring spin">
+      <div class="avatar-inner">
+        <img src="avatar.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHẦN GIỮA (NHẠT) -->
+<section class="scene info">
+  <p class="reveal-text">Trân trọng kính mời quý gia đình<br></p>
+  <p class="reveal-text">ĐẾN DỰ BỮA TIỆC THÔI NÔI BÉ<br></p>
+  <p class="reveal-text name-bold">TRẦN NGỌC TỐ UYÊN<br></p>
+  <p class="reveal-text">DÂU TÂY<br></p>
+</section>
+<!---->
+<div class="invite-time">
+
+  <div class="time reveal-text">VÀO LÚC 14:00</div>
+  <div class="weekday reveal-text">Chủ Nhật</div>
+
+  <div class="date-box reveal-text">
+    <div class="month">THÁNG 2</div>
+    <div class="day">22</div>
+    <div class="year">NĂM 2026</div>
+  </div>
+  <div class="lunar-date reveal-text">
+    Nhằm ngày Mùng 6 tháng 1 năm Bính Ngọ
+  </div>
+  <div class="location reveal-text">
+    <div class="hall">TẠI TƯ GIA<br></div>
+    <div class="address">
+      Ấp 7, xã Vị Thủy, thành phố Cần Thơ (Vị Thắng cũ)
+    </div>
+  </div>
+
+  <!--<button class="map-btn">📍 CHỈ ĐƯỜNG ĐẾN TIỆC</button>-->
+
+</div>
+
+<section class="scene map">
+  <h2>Địa điểm tổ chức</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.550129980175!2d105.54076697351576!3d9.719381877803553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0ef00560c95f5%3A0xde78deff9580a98e!2sHTX%20Hai%20Huynh!5e0!3m2!1svi!2s!4v1767667540347!5m2!1svi!2s" width="600" height="450" style="border:0;"
+    loading="lazy">
+  </iframe>
+</section>
+
+<!-- PHẦN CUỐI (ĐẬM) -->
+<section class="scene timeline">
+<!-- <div class="line"></div>-->
+  <h2 class="event reveal-text">Khoảnh khắc của Bé</h2>
+</section>
+
+<section class="gallery-section">
+  <div class="gallery">
+    <div class="photo-item reveal">
+      <img src="3a.jpg" alt="">
+    </div>
+    <div class="photo-item reveal">
+      <img src="3b.jpg" alt="">
+    </div>
+    <div class="photo-item reveal">
+      <img src="4a.jpg" alt="">
+    </div>
+    <div class="photo-item reveal">
+      <img src="4b.jpg" alt="">
+    </div>
+    <div class="photo-item reveal">
+      <img src="5a.jpg" alt="">
+    </div>
+    <div class="photo-item reveal">
+      <img src="5b.jpg" alt="">
+    </div>
+  </div>
+</section>
+<section class="scene closing">
+  <p class="closing-text reveal-text">
+    Rất hân hạnh được đón tiếp!!
+  </p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
